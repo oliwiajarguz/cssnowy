@@ -94,7 +94,7 @@ section {
 }
 
 #drop-nav {
-    display: flex;
+    display: none;
 }
 
 label[for="drop-nav"] {
@@ -196,7 +196,6 @@ label[for="drop-nav"] {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    text-align: center;
 
 }
 
@@ -239,11 +238,18 @@ label[for="drop-nav"] {
     color: #777;
 }
 
+
+
+
+
+
+/* ------------------------------------------- */
 /* resposnsywność */
 @media(max-width:1200px) {
     .container {
         max-width: 992px;
     }
+    
 }
 
 @media(max-width:992px) {
@@ -260,7 +266,7 @@ label[for="drop-nav"] {
     .container {
         max-width: 95%;
     }
-
+    
     .portfolio-wrapper .portfolio-item {
         flex-basis: 100%;
     }
@@ -282,9 +288,6 @@ label[for="drop-nav"] {
         flex-basis: 100%;
     }
 
-
-
-
     label[for="drop-nav"] {
         display: block;
         padding: 14px 20px;
@@ -293,8 +296,6 @@ label[for="drop-nav"] {
         font-size: 1.5em;
         text-align: right;
         cursor: pointer;
-
-
     }
 
     .main-menu ul {
